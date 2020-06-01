@@ -1,0 +1,39 @@
+//text buttons---//
+.text__button{
+    border-radius: 2rem;
+    color: $white;
+    background-color: $nickel;
+    border-color: $nickel;
+    padding:15px;
+     margin-top: 3rem;
+    margin-bottom: 3rem;
+&:hover{
+    background-color: $light-gray;
+    border-color: $light-gray;
+    color: $white;
+}
+}
+.text__button_md{
+    margin-left: 0.5rem;
+    :focus{
+        border-color: $light-gray;
+    }
+}
+
+//pagination button----//
+
+.pagination__buttons{
+    border-color: $plattinium;
+    border-radius: 2rem;
+    color: $nickel;
+    margin: 0;
+    li{
+        &:root .active{
+            background-color: $nickel;
+    
+    }
+}
+}
+    
+
+

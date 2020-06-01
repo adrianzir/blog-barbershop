@@ -1,0 +1,17 @@
+.text{
+    height: auto;
+    margin-top:5rem ;
+    text-align: left;
+    padding-bottom: 2rem;
+    background-color: $white;
+    border-bottom: solid $plattinium 1.5px;
+    font-family: $roboto;
+    font-weight: $regular;
+    font-size: medium;
+    .text__container{
+        .text__container__paragraph{
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+    }
+}

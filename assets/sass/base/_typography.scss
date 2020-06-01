@@ -1,0 +1,34 @@
+.header__title{
+    font-family: $playfair;
+    font-size: $xx-large;
+    color: $white;
+    font-weight: $black-italic;
+    font-style: italic;
+}
+.thumbnail__div-2__text{
+    font-family: $roboto;
+    font-size: $medium;
+    font-weight: $light;
+    color: $nickel;
+}
+.thumbnail__div-h5{
+    color: $eerie-black;
+    font-weight: $black-italic;
+    font-size: $x-large;
+    font-family: $playfair;
+    font-style: italic;
+}
+.thumbnail__div__p-link {
+    color: $ruddy-pink;
+    &:hover{
+        color: $raisin-black;
+        text-decoration: none;
+    }
+    :active{
+        color: $plattinium;
+    }
+}
+.thumbnail__div{
+    color: $ruddy-pink;
+    font-size: $large;
+}

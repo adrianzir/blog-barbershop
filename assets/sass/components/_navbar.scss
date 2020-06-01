@@ -1,0 +1,14 @@
+.navbar {
+    background-color: $eerie-black;
+    height: 100px;
+    padding: 0.5rem 0;
+}
+.navbar__logo{
+    height: 2.5rem;
+    width: 4rem;
+}
+.navbar__ul-item-active{
+    color: $ruddy-pink;
+    text-decoration: none;
+}
+

@@ -1,0 +1,27 @@
+//IMPORTS---------//
+//ABSTRACTS//
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+//vendors//
+@import 'vendors/bootstrap-og/bootstrap-reboot.scss';
+
+//Base---//
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typography';
+
+//layoutt-partials//
+@import 'layout/hero-section';
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/thumbnail';
+
+//componentss//
+@import 'components/buttons';
+@import 'components/navbar';
+@import 'components/pagination';
+
+//pages---//
+
+//themes//
